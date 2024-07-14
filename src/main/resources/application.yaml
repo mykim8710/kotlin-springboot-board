@@ -6,9 +6,9 @@ spring:
     #DB Connection
     datasource:
         driver-class-name: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://localhost:3309/ks_board
+        url: jdbc:mysql://awseb-e-zjaq2gv6km-stack-awsebrdsdatabase-hjlbh9zqgmi0.clg0qm2w4o9d.ap-northeast-2.rds.amazonaws.com
         username: root
-        password: 1234
+        password: kmy5708123
 
     #JPA
     jpa:
