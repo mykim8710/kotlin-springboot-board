@@ -5,8 +5,8 @@ logging:
 spring:
     #DB Connection
     datasource:
-        driver-class-name: org.mariadb.jdbc.Driver
-        url: jdbc:mariadb://localhost:3308/kotlin_board
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3309/ks_board
         username: root
         password: 1234
 

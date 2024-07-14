@@ -26,7 +26,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
-    implementation("org.mariadb.jdbc:mariadb-java-client")
+    implementation("mysql:mysql-connector-java:8.0.33")
 
     // kotlin - spring 기본
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
